@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\RATS\project\SW\HUD\HUD_v1.0\lib\UI\ui_Screen0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RATS\project\SW\HUD\HUD_v1.0\lib\UI\ui.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RATS\project\SW\HUD\HUD_v1.0\lib\UI\ui_comp_hook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RATS\project\SW\HUD\HUD_v1.0\lib\UI\ui_helpers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RATS\project\SW\HUD\HUD_v1.0\lib\UI\ui_img_dist_png.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RATS\project\SW\HUD\HUD_v1.0\lib\UI\ui_img_lanel_png.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RATS\project\SW\HUD\HUD_v1.0\lib\UI\ui_img_laner_png.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RATS\project\SW\HUD\HUD_v1.0\lib\UI\ui_img_vehicle_png.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\RATS\project\SW\HUD\HUD_v1.0\lib\UI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{293D6A20-215B-34DE-ABAA-516A90A88F28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
