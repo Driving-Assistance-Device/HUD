@@ -34,36 +34,41 @@ This project receives **lane deviation** and **inter-vehicle distance** data fro
 
 ## HUD usage example
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2d93b3bb-a523-4cbf-9893-10645ae0ac8a" width="550"/>
+</p>
+
+<br>
+
 <table align="center">
   <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/c4ba8e75-f89b-4b27-a537-6e9d83ca2b41" alt="Normal driving" width="250"/><br>
-      <strong>Normal driving</strong><br>
-      <strong>Safe distance</strong>
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/a82cb9f6-0399-406a-bea1-21790bd73cc9" alt="Left deviation" width="250"/><br>
-      <strong>Left deviation</strong><br>
-      <strong>Warning distance</strong>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/d2ee10b1-e7ac-41e2-a4aa-1cbb2361b04a" alt="Right deviation" width="250"/><br>
-      <strong>Right deviation</strong><br>
-      <strong>Dangerous distance</strong>
-    </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/b2dacc19-2f68-4626-9bfa-b7ea40e03f93" alt="Offset calibration" width="250"/><br>
       <strong>Offset calibration mode</strong><br>
       <strong>&nbsp;</strong>
     </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/2a4f5e9c-7cb1-4764-a614-49db047172ba" alt="Left deviation" width="250"/><br>
+      <strong>Normal driving</strong><br>
+      <strong>Safe distance</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b22a9c84-4e58-432c-bb89-f36f919f3275" alt="Right deviation" width="250"/><br>
+      <strong>Right deviation</strong><br>
+      <strong>Dangerous distance</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/822964e1-8c0f-4c0b-8650-e53816e4f46b" alt="Normal driving" width="250"/><br>
+      <strong>Left deviation</strong><br>
+      <strong>Warning distance</strong>
+    </td>
   </tr>
 </table>
 
-
-
 <br>
+
 
 ## Project structure
 
