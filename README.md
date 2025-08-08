@@ -1,19 +1,69 @@
 # HUD
+<br>
 
-</div>
+This project receives **lane deviation** and **inter-vehicle distance** data from a Raspberry Pi, displays the information on an ESP32-based display module, and implements a **HUD** (Head-Up Display) using a combiner method.
 
-## Environemnt
-### HW
+<br>
+
+### Key Features
+- Real-time visualization of lane deviation and following distance  
+- Display output using ESP32 and LVGL  
+- HUD implementation via combiner reflection  
+- Touch-based UI with calibration functionality
+
+<br>
+
+## HW
 - Waveshare ESP32-S3 2.41inch AMOLED Touch Display
   - MCU : ESP32-S3
   - Driver IC : RM690B0
   - Touch IC : FT6336
 
-### SW
-- **Squareline Studio* : 1.5.3
-- **LVGL** : 8.3.11 
+## SW
+- **Squareline Studio** : 1.5.3
+- **LVGL** : 8.3.11
+- **IDE** : PlatformIO
 
-</div>
+<br>
+
+## System Overview
+<p align="center">
+  <img width="1000" height="430" alt="Image" src="https://github.com/user-attachments/assets/f3e229a8-6b9c-4136-841c-ce285a8fbed9" />
+</p>
+<br>
+
+## HUD usage example
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/c4ba8e75-f89b-4b27-a537-6e9d83ca2b41" alt="Normal driving" width="250"/><br>
+      <strong>Normal driving</strong><br>
+      <strong>Safe distance</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/a82cb9f6-0399-406a-bea1-21790bd73cc9" alt="Left deviation" width="250"/><br>
+      <strong>Left deviation</strong><br>
+      <strong>Warning distance</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d2ee10b1-e7ac-41e2-a4aa-1cbb2361b04a" alt="Right deviation" width="250"/><br>
+      <strong>Right deviation</strong><br>
+      <strong>Dangerous distance</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/b2dacc19-2f68-4626-9bfa-b7ea40e03f93" alt="Offset calibration" width="250"/><br>
+      <strong>Offset calibration mode</strong><br>
+      <strong>&nbsp;</strong>
+    </td>
+  </tr>
+</table>
+
+
+
+<br>
 
 ## Project structure
 
