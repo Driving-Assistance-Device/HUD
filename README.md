@@ -3,7 +3,9 @@
 
 This project receives **lane deviation** and **inter-vehicle distance** data from a Raspberry Pi, displays the information on an ESP32-based display module, and implements a **HUD** (Head-Up Display) using a combiner method.
 
-<br>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2d93b3bb-a523-4cbf-9893-10645ae0ac8a" width="550"/>
+</p>
 
 ### Key Features
 - Real-time visualization of lane deviation and following distance  
@@ -18,6 +20,8 @@ This project receives **lane deviation** and **inter-vehicle distance** data fro
   - MCU : ESP32-S3
   - Driver IC : RM690B0
   - Touch IC : FT6336
+
+<br>
 
 ## SW
 - **Squareline Studio** : 1.5.3
@@ -34,12 +38,6 @@ This project receives **lane deviation** and **inter-vehicle distance** data fro
 
 ## HUD usage example
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2d93b3bb-a523-4cbf-9893-10645ae0ac8a" width="550"/>
-</p>
-
-<br>
-
 <table align="center">
   <tr>
     <td align="center">
@@ -55,14 +53,14 @@ This project receives **lane deviation** and **inter-vehicle distance** data fro
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/b22a9c84-4e58-432c-bb89-f36f919f3275" alt="Right deviation" width="250"/><br>
-      <strong>Right deviation</strong><br>
-      <strong>Dangerous distance</strong>
-    </td>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/822964e1-8c0f-4c0b-8650-e53816e4f46b" alt="Normal driving" width="250"/><br>
+      <img src="https://github.com/user-attachments/assets/f685b994-e12f-44f0-b47d-d916f0575975" alt="Normal driving" width="250"/><br>
       <strong>Left deviation</strong><br>
       <strong>Warning distance</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/6051b6ee-5995-4cbf-81b5-cb8293f42285" alt="Normal driving" width="250"/><br>
+      <strong>Right deviation</strong><br>
+      <strong>Dangerous distance</strong>
     </td>
   </tr>
 </table>
