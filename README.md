@@ -3,9 +3,10 @@
 
 This project receives **lane deviation** and **inter-vehicle distance** data from a Raspberry Pi, displays the information on an ESP32-based display module, and implements a **HUD** (Head-Up Display) using a combiner method.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2d93b3bb-a523-4cbf-9893-10645ae0ac8a" width="550"/>
-</p>
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="https://github.com/user-attachments/assets/2d93b3bb-a523-4cbf-9893-10645ae0ac8a" width="550">
+  <img src="https://github.com/user-attachments/assets/a217981c-fa00-4a64-a355-d3e4d62f6005" width="410">
+</div>
 
 ### Key Features
 - Real-time visualization of lane deviation and following distance  
