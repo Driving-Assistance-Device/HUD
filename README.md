@@ -3,10 +3,10 @@
 
 This project receives **lane deviation** and **inter-vehicle distance** data from a Raspberry Pi, displays the information on an ESP32-based display module, and implements a **HUD** (Head-Up Display) using a combiner method.
 
-<div style="display: flex; justify-content: center; gap: 20px;">
+<p align="center">
   <img src="https://github.com/user-attachments/assets/2d93b3bb-a523-4cbf-9893-10645ae0ac8a" width="550">
-  <img src="https://github.com/user-attachments/assets/a217981c-fa00-4a64-a355-d3e4d62f6005" width="410">
-</div>
+  <img src="https://github.com/user-attachments/assets/406c9c52-573c-43e1-aaba-12bd5be66b4d" width="550">
+</p>
 
 ### Key Features
 - Real-time visualization of lane deviation and following distance  
@@ -33,7 +33,7 @@ This project receives **lane deviation** and **inter-vehicle distance** data fro
 
 ## System Overview
 <p align="center">
-  <img width="1000" height="430" alt="Image" src="https://github.com/user-attachments/assets/f3e229a8-6b9c-4136-841c-ce285a8fbed9" />
+  <img src="https://github.com/user-attachments/assets/f3e229a8-6b9c-4136-841c-ce285a8fbed9" width="800">
 </p>
 <br>
 
@@ -48,19 +48,19 @@ This project receives **lane deviation** and **inter-vehicle distance** data fro
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/2a4f5e9c-7cb1-4764-a614-49db047172ba" alt="Left deviation" width="250"/><br>
-      <strong>Normal driving</strong><br>
+      <strong>Center driving</strong><br>
       <strong>Safe distance</strong>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/f685b994-e12f-44f0-b47d-d916f0575975" alt="Normal driving" width="250"/><br>
-      <strong>Left deviation</strong><br>
+      <strong>Left bias</strong><br>
       <strong>Warning distance</strong>
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/6051b6ee-5995-4cbf-81b5-cb8293f42285" alt="Normal driving" width="250"/><br>
-      <strong>Right deviation</strong><br>
+      <strong>Right bias</strong><br>
       <strong>Dangerous distance</strong>
     </td>
   </tr>
