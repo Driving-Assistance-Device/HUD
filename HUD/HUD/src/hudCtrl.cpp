@@ -83,9 +83,17 @@ void HUD_run(float x_offset, float tSigST)
   }
 
   // Move car
-  float move_offset = x_offset - center;
-  if (move_offset > OFFSET_LIMIT) move_offset = OFFSET_LIMIT;
-  if (move_offset < -OFFSET_LIMIT) move_offset = -OFFSET_LIMIT;
+  float move_offset;
+  if (x_offset == 0)
+  {
+    move_offset = 0;
+  }
+  else
+  {
+    move_offset = x_offset - center;
+    if (move_offset > OFFSET_LIMIT) move_offset = OFFSET_LIMIT;
+    if (move_offset < -OFFSET_LIMIT) move_offset = -OFFSET_LIMIT;
+  }
 
   lv_obj_set_x(ui_vehicle, move_offset);
   lv_obj_set_x(ui_dist, move_offset);

@@ -1,3 +1,0 @@
-D:/RATS/project/SW/HUD/HUD_v1.0/build/CMakeFiles/ui.dir
-D:/RATS/project/SW/HUD/HUD_v1.0/build/CMakeFiles/ALL_BUILD.dir
-D:/RATS/project/SW/HUD/HUD_v1.0/build/CMakeFiles/ZERO_CHECK.dir
